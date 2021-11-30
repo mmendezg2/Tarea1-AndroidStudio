@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Practica 1 Android"
+        android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,6 +27,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="32dp"
         android:text="Nombre:"
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,6 +40,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="28dp"
         android:text="Genero:"
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,6 +53,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="20dp"
         android:text="FechaNaci:"
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,6 +66,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="24dp"
         android:text="Télefono:"
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,6 +78,7 @@
         android:layout_height="33dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="48dp"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPractica" />
 
@@ -82,6 +88,7 @@
         android:layout_height="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="56dp"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblNombreP" />
 
@@ -91,6 +98,7 @@
         android:layout_height="31dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="56dp"
+        android:textColor="#070707"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblGeneroP" />
 
@@ -98,8 +106,10 @@
         android:id="@+id/lblTelefonoP"
         android:layout_width="235dp"
         android:layout_height="30dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="56dp"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="218dp" />
+        app:layout_constraintTop_toBottomOf="@+id/lblFechaNaciP" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

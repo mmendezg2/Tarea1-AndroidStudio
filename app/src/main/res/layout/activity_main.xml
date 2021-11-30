@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Practica 1 Android"
+            android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -31,6 +32,7 @@
             android:layout_marginStart="36dp"
             android:layout_marginTop="36dp"
             android:text="Nombre:"
+            android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,6 +47,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
+            android:textColor="#000000"
             app:layout_constraintBottom_toBottomOf="@+id/txtVNombre"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtPractica1"
@@ -57,6 +60,7 @@
             android:layout_marginStart="48dp"
             android:layout_marginTop="108dp"
             android:text="Género"
+            android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/radioGroup2"
@@ -79,13 +83,17 @@
                 android:id="@+id/rbtnMasculino"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Masculino" />
+                android:minHeight="48dp"
+                android:text="Masculino"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:id="@+id/rbtnFemenino"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Femenino" />
+                android:minHeight="48dp"
+                android:text="Femenino"
+                android:textColor="#000000" />
         </RadioGroup>
 
         <TextView
@@ -95,6 +103,7 @@
             android:layout_marginStart="36dp"
             android:layout_marginTop="88dp"
             android:text="FechaNac:"
+            android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
@@ -108,6 +117,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
+            android:textColor="#000000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.202"
             app:layout_constraintStart_toEndOf="@+id/textView8"
@@ -121,6 +131,7 @@
             android:layout_marginStart="36dp"
             android:layout_marginTop="40dp"
             android:text="Télefono"
+            android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/txtTelefono"
@@ -137,17 +148,22 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
+            android:textColor="#050505"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtFechaNac"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/btnEnviar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="108dp"
+            android:layout_height="53dp"
             android:layout_marginTop="32dp"
+            android:background="#f29727"
             android:onClick="BtnEnviar"
             android:text="Enviar"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
